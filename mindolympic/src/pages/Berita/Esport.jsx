@@ -9,6 +9,9 @@ const Esport = () => {
         <div>
             <h1>Berita Esport</h1>
             <p>Berita Esport akan ditampilkan disini</p>
+
+            
+            
         </div>
     <Footer />
     </>
