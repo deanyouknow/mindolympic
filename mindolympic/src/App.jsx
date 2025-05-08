@@ -3,6 +3,11 @@ import './App.css'
 import Navbar from './assets/components/Navbar'
 import Highlight from './assets/components/Highlight'
 import Footer from './assets/components/Footer'
+import Home from './pages/Home'
+import Esport from './pages/Berita/Esport'
+import Catur from './pages/Berita/Catur'
+import Bridge from './pages/Berita/Bridge'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 function App() {
@@ -10,9 +15,14 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Highlight />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/berita/esport" element={<Esport />} />
+          <Route path="/berita/catur" element={<Catur />} />
+          <Route path="/berita/bridge" element={<Bridge />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
