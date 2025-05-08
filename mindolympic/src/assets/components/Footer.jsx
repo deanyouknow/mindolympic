@@ -1,20 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <footer className="bg-gray-100 text-black py-3 poppins-regular">
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-                <div className="text-lg font-bold">
-                    MindOlympic
-                </div>
-
+                <Link class="text-2xl text-black font-bold" className="text-black text-lg font-bold" to="/">MindOlympic</Link>
                 <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 mt-4 md:mt-0">
-                    <a href="#" className="hover:text-gray-300">
-                        Contact
-                    </a>
-                    <a href="#" className="hover:text-gray-300">
-                        About
-                    </a>
+                    <Link className='text-black hover:text-gray-300' to="/contact">Contact</Link>
+                    <Link className='text-black hover:text-gray-300' to="/about">About</Link>
                 </div>
             </div>
 
