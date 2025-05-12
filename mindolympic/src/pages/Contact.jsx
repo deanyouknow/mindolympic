@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <>
         <Navbar />
-            <div>
-                <h1>Contact Us</h1>
+            <div className='p-7 max-w-7xl mx-auto'>
+                <h1 className='text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6'>Contact Us</h1>
                 <p>If you have any questions or inquiries, feel free to reach out to us!</p>
                 <form>
                     <label htmlFor="name">Name:</label>

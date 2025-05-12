@@ -6,13 +6,11 @@ const About = () => {
   return (
     <>
     <Navbar />
-        <div>
-            <h1>About Us</h1>
-            <p>apacoba</p>
-            <p>Mindolympic adalah platform yang menyediakan berita terkini seputar olahraga, termasuk berita catur dan esport. Kami berkomitmen untuk memberikan informasi yang akurat dan terpercaya kepada pembaca kami.</p>
-            <p>Tim kami terdiri dari jurnalis dan penggemar olahraga yang berdedikasi untuk menyajikan konten berkualitas tinggi. Kami percaya bahwa olahraga adalah bagian penting dari kehidupan dan kami ingin berbagi semangat itu dengan Anda.</p>
-            <p>Jika Anda memiliki pertanyaan atau saran, jangan ragu untuk menghubungi kami melalui halaman kontak.</p>
-        </div>
+    <div className='p-7 max-w-7xl mx-auto'>
+        <h1 className='text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6'>Tentang Kami</h1>
+        <p>Mind Olympic adalah platform yang menyediakan informasi terkini seputar berita olahraga, khususnya dalam bidang catur, bridge, dan esport. Kami berkomitmen untuk memberikan berita yang akurat dan terpercaya kepada para pembaca kami.</p>
+        <p>Dengan tim jurnalis yang berpengalaman dan sumber informasi yang terpercaya, kami berusaha untuk menyajikan berita yang menarik dan bermanfaat bagi para penggemar olahraga.</p>
+    </div>
     <Footer />
     </>
   )
