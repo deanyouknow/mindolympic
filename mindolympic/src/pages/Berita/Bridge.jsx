@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react'  
 import Navbar from '../../assets/components/Navbar'
 import Footer from '../../assets/components/Footer'
+import HighlightB from '../../assets/components/Bridge/HighlightB'
+import BeritaB from '../../assets/components/Bridge/BeritaB'
 
 const Bridge = () => {
   return (
@@ -12,6 +14,8 @@ const Bridge = () => {
             <p>Berita Bridge akan ditampilkan disini</p>
         </div>
     </div>
+    <HighlightB />
+    <BeritaB />
     <Footer />
     </>
   )

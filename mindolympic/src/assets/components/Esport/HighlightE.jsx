@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Highlight = () => {
+const HighlightE = () => {
   const main = {
     title: "Highlight 1",
     subtitle:
       "Lorem Ipsum",
-    img: "https://cdn.sanity.io/images/zoz4y99f/production/63fe73d90694450859da70fe142d72e445a0a9cc-1600x900.jpg",
+    img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
     date: "May 2, 2025",
     author: "nama anda",
     url: "",
@@ -15,35 +15,32 @@ const Highlight = () => {
   const sideCards = [
     {
       title:
-        "Esport",
-      img: "https://upload.wikimedia.org/wikipedia/commons/9/96/LGD_Gaming_at_the_2015_LPL_Summer_Finals.jpg",
+        "Highlight 2",
+      img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "berita/Esport",
+      url: "",
     },
     {
-      title: "Catur",
-      img: "https://img-cdn.inc.com/image/upload/f_webp,c_fit,w_1920,q_auto/images/panoramic/getty_BA65213_9707769704500326_49933.jpg",
+      title: "Highlight 3",
+      img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "berita/Catur",
+      url: "",
     },
     {
       title:
-        "Bridge",
-      img: "https://static.republika.co.id/uploads/images/inpicture_slide/olahraga-bridge-ilustrasi-_140522170832-502.jpg",
+        "Highlight 4",
+      img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "berita/Bridge",
+      url: "",
     },
   ];
 
   return (
     <div className="p-7 max-w-7xl mx-auto">
-      <h2 className="text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6">
-        BERITA ESPORT, CATUR, BRIDGE TERBARU
-      </h2>
-
+    
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Main */}
         <Link
@@ -100,4 +97,4 @@ const Highlight = () => {
   );
 };
 
-export default Highlight;
+export default HighlightE;
