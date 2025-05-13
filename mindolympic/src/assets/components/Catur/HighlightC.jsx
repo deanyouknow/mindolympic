@@ -9,7 +9,7 @@ const HighlightC = () => {
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chess_pieces_close_up.jpg/1200px-Chess_pieces_close_up.jpg",
     date: "May 2, 2025",
     author: "nama anda",
-    url: "",
+    url: "C1",
   };
 
   const sideCards = [
@@ -19,14 +19,14 @@ const HighlightC = () => {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chess_pieces_close_up.jpg/1200px-Chess_pieces_close_up.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "",
+      url: "C2",
     },
     {
       title: "Highlight 3",
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chess_pieces_close_up.jpg/1200px-Chess_pieces_close_up.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "",
+      url: "C3",
     },
     {
       title:
@@ -34,7 +34,7 @@ const HighlightC = () => {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chess_pieces_close_up.jpg/1200px-Chess_pieces_close_up.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "",
+      url: "C4",
     },
   ];
 

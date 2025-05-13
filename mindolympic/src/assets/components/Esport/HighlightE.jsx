@@ -9,7 +9,7 @@ const HighlightE = () => {
     img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
     date: "May 2, 2025",
     author: "nama anda",
-    url: "",
+    url: "E1",
   };
 
   const sideCards = [
@@ -19,14 +19,14 @@ const HighlightE = () => {
       img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "",
+      url: "E2",
     },
     {
       title: "Highlight 3",
       img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "",
+      url: "E3",
     },
     {
       title:
@@ -34,7 +34,7 @@ const HighlightE = () => {
       img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "",
+      url: "E4",
     },
   ];
 

@@ -9,7 +9,7 @@ const HighlightB = () => {
     img: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bridge-Gro%C3%9Fschlemm.JPG",
     date: "May 2, 2025",
     author: "nama anda",
-    url: "",
+    url: "B1",
   };
 
   const sideCards = [
@@ -19,14 +19,14 @@ const HighlightB = () => {
       img: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bridge-Gro%C3%9Fschlemm.JPG",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "",
+      url: "B2",
     },
     {
       title: "Highlight 3",
       img: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bridge-Gro%C3%9Fschlemm.JPG",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "",
+      url: "B3",
     },
     {
       title:
@@ -34,7 +34,7 @@ const HighlightB = () => {
       img: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bridge-Gro%C3%9Fschlemm.JPG",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "",
+      url: "B4",
     },
   ];
 

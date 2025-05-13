@@ -9,7 +9,7 @@ const Highlight = () => {
     img: "https://cdn.sanity.io/images/zoz4y99f/production/63fe73d90694450859da70fe142d72e445a0a9cc-1600x900.jpg",
     date: "May 2, 2025",
     author: "nama anda",
-    url: "",
+    url: "/Esport/E1",
   };
 
   const sideCards = [

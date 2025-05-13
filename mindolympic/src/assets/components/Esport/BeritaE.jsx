@@ -22,7 +22,7 @@ const BeritaE = () => {
       img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
       date: "May 12, 2025",
       author: "nasi",
-      url: "",
+      url: "E2",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const BeritaE = () => {
       img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
       date: "May 10, 2025",
       author: "padang",
-      url: "",
+      url: "E3",
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ const BeritaE = () => {
       img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
       date: "May 10, 2025",
       author: "indomie",
-      url: "",
+      url: "E4",
     },
     {
       id: 5,
@@ -52,7 +52,17 @@ const BeritaE = () => {
       img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
       date: "May 10, 2025",
       author: "esteh",
-      url: "",
+      url: "E5",
+    },
+    {
+      id: 6,
+      title: "Berita 6",
+      summary:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
+      date: "May 10, 2025",
+      author: "esteh",
+      url: "E6",
     },
   ];
 

@@ -12,7 +12,7 @@ const BeritaB = () => {
       img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
       date: "May 12, 2025",
       author: "dadang",
-      url: "",
+      url: "B1",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const BeritaB = () => {
       img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
       date: "May 12, 2025",
       author: "nasi",
-      url: "",
+      url: "B2",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const BeritaB = () => {
       img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
       date: "May 10, 2025",
       author: "padang",
-      url: "",
+      url: "B3",
     },
     {
       id: 4,
@@ -42,17 +42,17 @@ const BeritaB = () => {
       img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
       date: "May 10, 2025",
       author: "indomie",
-      url: "",
+      url: "B4",
     },
     {
-      id: 5,
-      title: "Berita 5",
+      id: 6,
+      title: "Berita 6",
       summary:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
       date: "May 10, 2025",
       author: "esteh",
-      url: "",
+      url: "B6",
     },
   ];
 

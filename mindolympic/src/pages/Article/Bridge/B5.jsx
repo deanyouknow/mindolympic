@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../../../assets/components/Navbar'
 import Footer from '../../../assets/components/Footer'
 
-const E1 = () => {
+const B5 = () => {
   // Side cards data from Highlight.jsx
   const sideCards = [
      {
@@ -12,14 +12,14 @@ const E1 = () => {
       img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "/esport/E2",
+      url: "/bridge/B1",
     },
     {
       title: "Highlight 2",
       img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "/esport/E3",
+      url: "/bridge/B2",
     },
     {
       title:
@@ -27,7 +27,7 @@ const E1 = () => {
       img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "/esport/E4",
+      url: "/bridge/B3",
     },
      {
       title:
@@ -35,7 +35,7 @@ const E1 = () => {
       img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "/esport/E5",
+      url: "/bridge/B4",
     },
      {
       title:
@@ -43,7 +43,7 @@ const E1 = () => {
       img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "/esport/E6",
+      url: "/bridge/B6",
     },
   ];
 
@@ -59,7 +59,7 @@ const E1 = () => {
             {/* Arikel utama */}
             <div className="lg:w-2/3 bg-gray-75 shadow-md rounded-lg p-6">
               {/* Judul */}
-              <h1 className="josefin-sans text-4xl font-bold mb-4">Berita 1</h1>
+              <h1 className="josefin-sans text-4xl font-bold mb-4">Esport</h1>
               {/* Subjudul */}
               <h2 className="poppins-regular text-lg text-gray-700 mb-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -120,4 +120,4 @@ const E1 = () => {
   )
 }
 
-export default E1
+export default B5

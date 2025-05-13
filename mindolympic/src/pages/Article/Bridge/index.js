@@ -1,0 +1,6 @@
+export { default as B1 } from './B1'
+export { default as B2 } from './B2'
+export { default as B3 } from './B3'
+export { default as B4 } from './B4'
+export { default as B5 } from './B5'
+export { default as B6 } from './B6'

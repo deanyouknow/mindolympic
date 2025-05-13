@@ -12,7 +12,7 @@ const BeritaC = () => {
       img: "https://media.kasperskydaily.com/wp-content/uploads/sites/37/2023/08/15105553/playing-chess-safely-featured.jpg",
       date: "May 12, 2025",
       author: "dadang",
-      url: "",
+      url: "C1",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const BeritaC = () => {
       img: "https://media.kasperskydaily.com/wp-content/uploads/sites/37/2023/08/15105553/playing-chess-safely-featured.jpg",
       date: "May 12, 2025",
       author: "nasi",
-      url: "",
+      url: "C2",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const BeritaC = () => {
       img: "https://media.kasperskydaily.com/wp-content/uploads/sites/37/2023/08/15105553/playing-chess-safely-featured.jpg",
       date: "May 10, 2025",
       author: "padang",
-      url: "",
+      url: "C3",
     },
     {
       id: 4,
@@ -42,17 +42,17 @@ const BeritaC = () => {
       img: "https://media.kasperskydaily.com/wp-content/uploads/sites/37/2023/08/15105553/playing-chess-safely-featured.jpg",
       date: "May 10, 2025",
       author: "indomie",
-      url: "",
+      url: "C4",
     },
     {
-      id: 5,
-      title: "Berita 5",
+      id: 6,
+      title: "Berita 6",
       summary:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       img: "https://media.kasperskydaily.com/wp-content/uploads/sites/37/2023/08/15105553/playing-chess-safely-featured.jpg",
       date: "May 10, 2025",
-      author: "esteh",
-      url: "",
+      author: "abcsh",
+      url: "C6",
     },
   ];
 
