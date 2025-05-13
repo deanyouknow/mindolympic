@@ -19,14 +19,14 @@ const Highlight = () => {
       img: "https://upload.wikimedia.org/wikipedia/commons/9/96/LGD_Gaming_at_the_2015_LPL_Summer_Finals.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "berita/Esport",
+      url: "Esport",
     },
     {
       title: "Catur",
       img: "https://img-cdn.inc.com/image/upload/f_webp,c_fit,w_1920,q_auto/images/panoramic/getty_BA65213_9707769704500326_49933.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "berita/Catur",
+      url: "Catur",
     },
     {
       title:
@@ -34,7 +34,7 @@ const Highlight = () => {
       img: "https://static.republika.co.id/uploads/images/inpicture_slide/olahraga-bridge-ilustrasi-_140522170832-502.jpg",
       date: "May 2, 2025",
       author: "nama anda",
-      url: "berita/Bridge",
+      url: "Bridge",
     },
   ];
 

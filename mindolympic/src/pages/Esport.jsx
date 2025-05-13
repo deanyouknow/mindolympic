@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../../assets/components/Navbar'
-import Footer from '../../assets/components/Footer'
-import HighlightE from '../../assets/components/Esport/HighlightE'
-import BeritaE from '../../assets/components/Esport/BeritaE'
+import Navbar from '../assets/components/Navbar'
+import Footer from '../assets/components/Footer'
+import HighlightE from '../assets/components/Esport/HighlightE'
+import BeritaE from '../assets/components/Esport/BeritaE'
 
 const Esport = () => {
   return (

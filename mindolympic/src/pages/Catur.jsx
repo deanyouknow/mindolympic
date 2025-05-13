@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../../assets/components/Navbar'
-import Footer from '../../assets/components/Footer'
-import HighlightC from '../../assets/components/Catur/HighlightC'
-import BeritaC from '../../assets/components/Catur/BeritaC'
+import Navbar from '../assets/components/Navbar'
+import Footer from '../assets/components/Footer'
+import HighlightC from '../assets/components/Catur/HighlightC'
+import BeritaC from '../assets/components/Catur/BeritaC'
 
 const Catur = () => {
   return (

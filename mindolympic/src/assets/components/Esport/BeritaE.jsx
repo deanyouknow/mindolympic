@@ -12,7 +12,7 @@ const BeritaE = () => {
       img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
       date: "May 12, 2025",
       author: "dadang",
-      url: "",
+      url: "E1",
     },
     {
       id: 2,

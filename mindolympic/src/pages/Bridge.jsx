@@ -1,8 +1,8 @@
 import React from 'react'  
-import Navbar from '../../assets/components/Navbar'
-import Footer from '../../assets/components/Footer'
-import HighlightB from '../../assets/components/Bridge/HighlightB'
-import BeritaB from '../../assets/components/Bridge/BeritaB'
+import Navbar from '../assets/components/Navbar'
+import Footer from '../assets/components/Footer'
+import HighlightB from '../assets/components/Bridge/HighlightB'
+import BeritaB from '../assets/components/Bridge/BeritaB'
 
 const Bridge = () => {
   return (
