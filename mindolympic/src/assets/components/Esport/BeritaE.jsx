@@ -16,7 +16,7 @@ const BeritaE = () => {
     },
     {
       id: 2,
-      title: "Berita 3",
+      title: "Berita 2",
       summary:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",

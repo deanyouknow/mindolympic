@@ -16,7 +16,7 @@ const BeritaC = () => {
     },
     {
       id: 2,
-      title: "Berita 3",
+      title: "Berita 2",
       summary:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       img: "https://media.kasperskydaily.com/wp-content/uploads/sites/37/2023/08/15105553/playing-chess-safely-featured.jpg",

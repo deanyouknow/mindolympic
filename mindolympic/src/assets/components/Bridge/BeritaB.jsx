@@ -16,7 +16,7 @@ const BeritaB = () => {
     },
     {
       id: 2,
-      title: "Berita 3",
+      title: "Berita 2",
       summary:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
