@@ -61,7 +61,7 @@ const B6 = () => {
               {/* Judul */}
               <h1 className="josefin-sans text-4xl font-bold mb-4">Esport</h1>
               {/* Subjudul */}
-              <h2 className="poppins-regular text-lg text-gray-700 mb-6">
+              <h2 className="poppins-regular text-sm text-gray-700 mb-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </h2>
               {/* Gambar */}
