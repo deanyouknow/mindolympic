@@ -54,7 +54,7 @@ const Contact = () => {
             <div className="text-center">
               <button
                 type="submit"
-                className="josefin-sans px-6 py-2 bg-black text-white font-semibold rounded-full shadow hover:bg-indigo-700 transition"
+                className="josefin-sans px-6 py-2 bg-black text-white font-semibold rounded-full shadow hover:bg-white hover:text-black transition"
               >
                 Kirim
               </button>
@@ -64,7 +64,7 @@ const Contact = () => {
       </section>
 
       {/* Additional Contact Info */}
-      <section className="bg-gray-50 py-12">
+      <section className="bg-gray-100 py-12">
         <div className="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col items-center">
             <h3 className="josefin-sans text-xl font-semibold mb-2">Alamat</h3>
