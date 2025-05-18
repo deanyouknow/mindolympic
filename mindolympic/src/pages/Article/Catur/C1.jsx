@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../../../assets/components/Navbar'
 import Footer from '../../../assets/components/Footer'
-import SideCardsE from '../../../assets/components/Esport/SideCardsE'
+import SideCardsC from '../../../assets/components/Catur/SideCardsC'
 
-const E5 = () => {
+const C1 = () => {
 
   return (
     <>
@@ -18,26 +18,26 @@ const E5 = () => {
             {/* Arikel utama */}
             <div className="lg:w-2/3 bg-gray-75 shadow-md rounded-lg p-6">
               {/* Judul */}
-              <h1 className="josefin-sans text-4xl font-bold mb-4">Tanggal rilis Dune Awakening, adaptasi game dari film dengan rating IMDB nyaris sempurna</h1>
+              <h1 className="josefin-sans text-4xl font-bold mb-4">Tim Catur Bangkalan Berhasil Lolos ke Porprov Jatim 2025</h1>
               {/* Subjudul */}
               <h2 className="poppins-regular text-sm text-gray-700 mb-6">
-                Inilah semua yang perlu kalian ketahui tentang Dune Awakening.
+                Atlet Catur Putra Bangkalan (pakaian putih) Saat Bertanding di Pra-Porprov Jatim 2025 di Kediri
               </h2>
               {/* Gambar */}
               <img
-                src="https://cdn.oneesports.id/cdn-data/sites/2/2024/03/Games_DuneAwakening_OfficialImage_1-1024x576-1.jpg"
-                alt="Esport"
+                src="https://cdn.rri.co.id/berita/Sumenep/o/1745813366936-atlet_catur_bangkalan_di_pra_porprovv_kediri/5ckfnfvs86tt0lv.webp"
+                alt="Catur"
                 className="w-full h-auto rounded-lg mb-6"
               />
               {/* Isi */}
               <p className="poppins-regular text-base text-gray-700 mb-6">
-                Dune Awakening bakal membawa kita ke petualangan epik di planet Arrakis yang penuh gurun. Game ini menawarkan pemain pengalaman Open World yang luas dan berbeda dari yang lain.
+                Kabar membanggakan datang dari dunia olahraga catur Kabupaten Bangkalan. Tim catur asal Kota Salak berhasil memastikan diri lolos ke Pekan Olahraga Provinsi (Porprov) Jawa Timur 2025, setelah tampil impresif dalam ajang Pra- Porprov.
               </p>
               <p className="poppins-regular text-base text-gray-700 mb-6">
-                Mengusung genre Action Survival MMO, game ini diluncurkan oleh Funcom selama Gamescom 2022, mereka menjanjikan perpaduan intensitas permainan bertahan hidup dan dinamika sosial yang mendalam dari dunia multipemain berskala besar.
+                Bertanding di zona penyisihan yang berlangsung di Kota Kediri, tim catur Bangkalan menunjukkan performa konsisten sejak awal hingga akhir. Mereka berhasil mengungguli beberapa daerah unggulan dan menempati posisi yang mengamankan tiket ke ajang Porprov Juni mendatang di Malang Raya.
               </p>
               <p className='poppins-regular text-base text-gray-700 mb-6'>
-                Artikel ini akan mengulas semua yang perlu kalian ketahui tentang Dune Awakening, mulai dari mekanisme gameplay hingga pendaftaran closed beta.
+                Ketua Persatuan Catur Seluruh Indonesia (Percasi) Kabupaten Bangkalan  Mohammad Zakir mengungkapkan rasa syukurnya atas pencapaian ini. Bahkan salah satu atlet putranya meraih point tertinggi. Sedangkan yang putri mendapat poin tertinggi ketiga.
               </p>
               {/* Author */}
               <div className="poppins-regular text-sm text-gray-600">
@@ -45,7 +45,7 @@ const E5 = () => {
                 <p>Date: May 12, 2025</p>
               </div>
             </div>
-            <SideCardsE />
+            <SideCardsC />
           </div>
         </div>
       </div>
@@ -54,4 +54,4 @@ const E5 = () => {
   )
 }
 
-export default E5
+export default C1

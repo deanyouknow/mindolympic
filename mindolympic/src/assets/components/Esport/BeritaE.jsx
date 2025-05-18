@@ -1,75 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import DataEsport from '../../../data/DataEsport';
 
 const BeritaE = () => {
-
-  const articles = [
-    {
-      id: 1,
-      title: "Berita 1",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
-      date: "May 12, 2025",
-      author: "dadang",
-      url: "E1",
-    },
-    {
-      id: 2,
-      title: "Berita 2",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
-      date: "May 12, 2025",
-      author: "nasi",
-      url: "E2",
-    },
-    {
-      id: 3,
-      title: "Berita 3",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
-      date: "May 10, 2025",
-      author: "padang",
-      url: "E3",
-    },
-    {
-      id: 4,
-      title: "Berita 4",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
-      date: "May 10, 2025",
-      author: "indomie",
-      url: "E4",
-    },
-    {
-      id: 5,
-      title: "Berita 5",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
-      date: "May 10, 2025",
-      author: "esteh",
-      url: "E5",
-    },
-    {
-      id: 6,
-      title: "Berita 6",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://static.cdn.syr.edu/static/www/original_images/gaming-and-esports-center.jpeg",
-      date: "May 10, 2025",
-      author: "esteh",
-      url: "E6",
-    },
-  ];
-
   return (
     <>
-    
-    
     <div className="p-7 max-w-7xl mx-auto">
       {/* Section Title */}
       <h2 className="text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6">
@@ -78,7 +13,7 @@ const BeritaE = () => {
 
       {/* Articles List */}
       <div className="space-y-4">
-        {articles.map(({ id, title, summary, img, date, author, url }) => (
+        {DataEsport.map(({ id, title, summary, img, date, author, url }) => (
           <Link
             key={id}
             to={url}
@@ -107,7 +42,6 @@ const BeritaE = () => {
         ))}
       </div>
     </div>
-
     </>
   );
 };

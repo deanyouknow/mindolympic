@@ -2,10 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../../../assets/components/Navbar'
 import Footer from '../../../assets/components/Footer'
-import SideCardsB from '../../../assets/components/Bridge/SideCardsB'
+import SideCardsC from '../../../assets/components/Catur/SideCardsC'
 
-const B1 = () => {
-
+const C5 = () => {
   return (
     <>
       <Navbar />
@@ -18,23 +17,26 @@ const B1 = () => {
             {/* Arikel utama */}
             <div className="lg:w-2/3 bg-gray-75 shadow-md rounded-lg p-6">
               {/* Judul */}
-              <h1 className="josefin-sans text-4xl font-bold mb-4">Bulan Mei 2025 Bulannya Asia Pacific Bridge Federation (APBF)</h1>
+              <h1 className="josefin-sans text-4xl font-bold mb-4">Yosep Taher segel gelar juara kategori blitz JAPFA FIDE Rated</h1>
               {/* Subjudul */}
               <h2 className="poppins-regular text-sm text-gray-700 mb-6">
-                Bulan Mei 2025 akan menjadi bulan tersibuk dari Asia Pacific Bridge Federation (APBF).
+                Dari kanan - IM Nayaka Budhidharma, IM Mohamad Ervan, dan IM Yosep Theolifus Taher saat menerima hadiah juara pada kategori catur cepat JAPFA FIDE Rated 2025 di Gedugn Serbaguna
               </h2>
               {/* Gambar */}
               <img
-                src="https://assets.kompasiana.com/items/album/2025/04/22/apbf-youth-6806f35134777c490a7eda42.jpg"
-                alt="Esport"
+                src="https://cdn.antaranews.com/cache/1200x800/2025/05/16/IMG-20250516-WA0001.jpg.webp"
+                alt="Catur"
                 className="w-full h-auto rounded-lg mb-6"
               />
               {/* Isi */}
               <p className="poppins-regular text-base text-gray-700 mb-6">
-                Karena  pada bulan ini APBF akan menyelenggarakan The 25th APBF Youth Championships 2025  pada tanggal 1-6 Mei 2025 The Cavalli Casa Resort di Ayutthaya, 
+                Pecatur IM Yosep Theolifus Taher menyegel gelar juara kategori blitz atau catur cepat turnamen JAPFA FIDE Rated 2025.
               </p>
               <p className="poppins-regular text-base text-gray-700 mb-6">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Dalam turnamen yang berlangsung di Gedung Serbaguna Senayan, Jakarta, Kamis, Yoseph menjadi jawara setelah mengoleksi 8,5 VP dari sembilan babak.
+              </p>
+              <p className='poppins-regular text-base text-gray-700 mb-6'>
+                "Untuk JAPFA FIDE Rated 2025 ini semakin kompetitif ya. Saya pikir banyak pemain-pemain baru, pemain muda yang muncul dan mewarnai turnamen yang ada," kata Wakil Ketua Umum Pengurus Besar Persatuan Catur Seluruh Indonesia (PB Percasi) Laksamana TNI Abdul Rivai Ras dalam keterangan resmi dikutip Jumat.
               </p>
               {/* Author */}
               <div className="poppins-regular text-sm text-gray-600">
@@ -42,7 +44,7 @@ const B1 = () => {
                 <p>Date: May 12, 2025</p>
               </div>
             </div>
-            <SideCardsB />
+            <SideCardsC />
           </div>
         </div>
       </div>
@@ -51,4 +53,4 @@ const B1 = () => {
   )
 }
 
-export default B1
+export default C5

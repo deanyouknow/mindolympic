@@ -3,38 +3,38 @@ import { Link } from "react-router-dom";
 
 const HighlightC = () => {
   const main = {
-    title: "Highlight 1",
+    title: "Remaja 16 Tahun Asal Sleman Lolos Piala Dunia Catur Sekaligus Raih Gelar Woman International Master!",
     subtitle:
       "Lorem Ipsum",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chess_pieces_close_up.jpg/1200px-Chess_pieces_close_up.jpg",
-    date: "May 2, 2025",
-    author: "nama anda",
-    url: "C1",
+    img: "https://images.chesscomfiles.com/uploads/v1/news/1652318.5fba5617.668x375o.54778ff67b4c.png",
+    date: "May 12, 2025",
+    author: "thifaal",
+    url: "C4",
   };
 
   const sideCards = [
     {
       title:
-        "Highlight 2",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chess_pieces_close_up.jpg/1200px-Chess_pieces_close_up.jpg",
+        "Zacky Dhia Ulhaq segel juara JAPFA FIDE Rated 2025",
+      img: "https://cdn.antaranews.com/cache/1200x800/2025/05/15/IMG-20250514-WA0055.jpg.webp",
       date: "May 2, 2025",
-      author: "nama anda",
+      author: "dean",
+      url: "C6",
+    },
+    {
+      title: "Catur Indonesia Target Empat Emas di SEA Games 2025",
+      img: "https://akcdn.detik.net.id/community/media/visual/2021/03/17/ilustrasi-catur-1.jpeg?w=700&q=90",
+      date: "May 2, 2025",
+      author: "maula",
       url: "C2",
     },
     {
-      title: "Highlight 3",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chess_pieces_close_up.jpg/1200px-Chess_pieces_close_up.jpg",
-      date: "May 2, 2025",
-      author: "nama anda",
-      url: "C3",
-    },
-    {
       title:
-        "Highlight 4",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chess_pieces_close_up.jpg/1200px-Chess_pieces_close_up.jpg",
+        "Yosep Taher segel gelar juara kategori blitz JAPFA FIDE Rated",
+      img: "https://cdn.antaranews.com/cache/1200x800/2025/05/16/IMG-20250516-WA0001.jpg.webp",
       date: "May 2, 2025",
-      author: "nama anda",
-      url: "C4",
+      author: "maula",
+      url: "C5",
     },
   ];
 

@@ -1,16 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './assets/components/Navbar'
-import Highlight from './assets/components/Highlight'
-import Footer from './assets/components/Footer'
-import Home from './pages/Home'
-import Esport from './pages/Esport'
-import Catur from './pages/Catur'
-import Bridge from './pages/Bridge'
-import About from './pages/About'
-import Contact from './pages/Contact'
+import { About, Bridge, Catur, Contact, Esport, Home } from './pages/'
 import { E1, E2, E3, E4, E5, E6 } from './pages/Article/Esport'
-import { C1, C2, C3, C4, C5, C6 } from './pages/Article/Chess' 
+import { C1, C2, C3, C4, C5, C6 } from './pages/Article/Catur' 
 import { B1, B2, B3, B4, B5, B6 } from './pages/Article/Bridge'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 

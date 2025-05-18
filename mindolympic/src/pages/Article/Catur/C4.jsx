@@ -2,9 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../../../assets/components/Navbar'
 import Footer from '../../../assets/components/Footer'
-import SideCardsE from '../../../assets/components/Esport/SideCardsE'
+import SideCardsC from '../../../assets/components/Catur/SideCardsC'
 
-const E3 = () => {
+const C4 = () => {
+  
   return (
     <>
       <Navbar />
@@ -17,34 +18,34 @@ const E3 = () => {
             {/* Arikel utama */}
             <div className="lg:w-2/3 bg-gray-75 shadow-md rounded-lg p-6">
               {/* Judul */}
-              <h1 className="josefin-sans text-4xl font-bold mb-4">Esports World Cup 2025 – teams, games, dates, and more</h1>
+              <h1 className="josefin-sans text-4xl font-bold mb-4">Remaja 16 Tahun Asal Sleman Lolos Piala Dunia Catur Sekaligus Raih Gelar Woman International Master!</h1>
               {/* Subjudul */}
               <h2 className="poppins-regular text-sm text-gray-700 mb-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </h2>
               {/* Gambar */}
               <img
-                src="https://cdn.escharts.com/media/quick-upload/2024/11/EWC25-424e85520ce272c54a15685bf5c2d246.jpeg"
-                alt="Esport"
+                src="https://images.chesscomfiles.com/uploads/v1/news/1652318.5fba5617.668x375o.54778ff67b4c.png"
+                alt="Catur"
                 className="w-full h-auto rounded-lg mb-6"
               />
               {/* Isi */}
               <p className="poppins-regular text-base text-gray-700 mb-6">
-                The second edition has tentatively been given the same timeframe as the 2024 esports series, with competitions scheduled to take place between July and August in 2025. Although the exact dates have not been revealed, it is expected that it will follow a similar schedule to the inaugural iteration.
+                Turnamen Asian Zone 3.3 Chess Championship 2025 resmi berakhir pada 1 Mei. Pecatur kebanggaan Indonesia, Shafira Devi Herfesa yang berusia 16 tahun asal Sleman tampil sebagai juara kategori Wanita. Ia lolos ke Piala Dunia Catur Wanita FIDE 2025 sekaligus meraih gelar baru yaitu Woman International Master (WIM). Tak hanya itu, ia juga membawa pulang hadiah $1215 dan mencatat kenaikan 172 poin rating FIDE!
               </p>
               <p className="poppins-regular text-base text-gray-700 mb-6">
-                Details about the prize pool, which was the highest ever for an esports series or event at the 2024 edition, have also not been disclosed, although the amount should witness a hike. The robust trophy system that rewarded the best club in the world (Club Championship) based on cumulative points from each team's overall performance across the two months of action should also be retained.
+                Shafira (1983) mencatat perjalanan luar biasa sepanjang 9 babak turnamen. Ia mengoleksi 7 poin, membukukan 5 kemenangan, 2 hasil remis, dan hanya 1 kekalahan. Di antara lawan-lawannya terdapat dua WGM, dua WIM, satu WFM, dan tiga WCM. Shafira tampil konsisten sejak awal dan menutup turnamen dengan kemenangan yang mengangkatnya dari posisi keempat ke peringkat pertama di babak terakhir.
               </p>
               <p className='poppins-regular text-base text-gray-700 mb-6'>
-                Speaking of the Club Championship, the list of participants for the Esports World Cup Foundation (EWCF) Club Partner Program expanded to 40 organizations in 2025, with sides selected set to receive six-figure funding in dollars to strengthen their brand and activate their fan base ahead of the EWC 2025.
+                “Saat babak kedelapan aku masih di posisi keempat. Tapi babak terakhir jadi momen favoritku. Rasanya seperti keajaiban,” ujar Shafira dalam wawancara usai pertandingan
               </p>
               {/* Author */}
               <div className="poppins-regular text-sm text-gray-600">
-                <p>Author: Maula</p>
+                <p>Author: Thifaal</p>
                 <p>Date: May 12, 2025</p>
               </div>
             </div>
-            <SideCardsE />
+            <SideCardsC />
           </div>
         </div>
       </div>
@@ -53,4 +54,4 @@ const E3 = () => {
   )
 }
 
-export default E3
+export default C4

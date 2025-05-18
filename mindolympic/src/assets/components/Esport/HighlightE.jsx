@@ -3,38 +3,38 @@ import { Link } from "react-router-dom";
 
 const HighlightE = () => {
   const main = {
-    title: "Highlight 1",
+    title: "GTA VI: Detail karakter, lokasi, dan alur cerita",
     subtitle:
-      "Lorem Ipsum",
-    img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
-    date: "May 2, 2025",
-    author: "nama anda",
-    url: "E1",
+      "Petualangan heboh baru menanti…",
+    img: "https://cdn.oneesports.id/cdn-data/sites/2/2025/05/GTAVI_Jason_Duval_03-1024x576.jpg",
+    date: "May 12, 2025",
+    author: "dean",
+    url: "E4",
   };
 
   const sideCards = [
     {
       title:
-        "Highlight 2",
-      img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
-      date: "May 2, 2025",
-      author: "nama anda",
-      url: "E2",
+        "Di luar nalar, prize pool EWC 2025 lebih dari Rp1,1 triliun!",
+      img: "https://cdn.oneesports.id/cdn-data/sites/2/2025/04/EWC2025_Prizepool.jpg",
+      date: "May 12, 2025",
+      author: "maula",
+      url: "E6",
     },
     {
-      title: "Highlight 3",
-      img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
-      date: "May 2, 2025",
-      author: "nama anda",
-      url: "E3",
+      title: "Tanggal rilis Dune Awakening, adaptasi game dari film dengan rating IMDB nyaris sempurna",
+      img: "https://cdn.oneesports.id/cdn-data/sites/2/2024/03/Games_DuneAwakening_OfficialImage_1-1024x576-1.jpg",
+      date: "May 12, 2025",
+      author: "thifaal",
+      url: "E5",
     },
     {
       title:
-        "Highlight 4",
-      img: "https://www.sotrender.com/blog/wp-content/uploads/2017/06/a3c3b4c9c9.jpg",
-      date: "May 2, 2025",
-      author: "nama anda",
-      url: "E4",
+        "Tidak main-main, investasi esports Honor of Kings 2025 sebesar US$15 juta!",
+      img: "https://cdn.oneesports.id/cdn-data/sites/2/2025/03/HonorOfKings_InvitationalS3_NongshimRedforce_PunchPose-1024x576-1.jpg",
+      date: "May 12, 2025",
+      author: "thifaal",
+      url: "E2",
     },
   ];
 

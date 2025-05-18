@@ -1,0 +1,6 @@
+export { default as About } from './About'
+export { default as Bridge } from './Bridge'
+export { default as Catur } from './Catur'
+export { default as Contact } from './Contact'
+export { default as Esport } from './Esport'
+export { default as Home } from './Home'

@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../../../assets/components/Navbar'
 import Footer from '../../../assets/components/Footer'
-import SideCardsB from '../../../assets/components/Bridge/SideCardsB'
+import SideCardsC from '../../../assets/components/Catur/SideCardsC'
 
-const B1 = () => {
+const C2 = () => {
 
   return (
     <>
@@ -18,23 +18,23 @@ const B1 = () => {
             {/* Arikel utama */}
             <div className="lg:w-2/3 bg-gray-75 shadow-md rounded-lg p-6">
               {/* Judul */}
-              <h1 className="josefin-sans text-4xl font-bold mb-4">Bulan Mei 2025 Bulannya Asia Pacific Bridge Federation (APBF)</h1>
+              <h1 className="josefin-sans text-4xl font-bold mb-4">Catur Indonesia Target Empat Emas di SEA Games 2025</h1>
               {/* Subjudul */}
               <h2 className="poppins-regular text-sm text-gray-700 mb-6">
-                Bulan Mei 2025 akan menjadi bulan tersibuk dari Asia Pacific Bridge Federation (APBF).
+                Catur Indonesia memasang target empat medali emas SEA Games 2025 Thailand. Salah satunya mereka percaya diri merebut dua emas dari nomor tradisional tuan rumah.
               </h2>
               {/* Gambar */}
               <img
-                src="https://assets.kompasiana.com/items/album/2025/04/22/apbf-youth-6806f35134777c490a7eda42.jpg"
-                alt="Esport"
+                src="https://akcdn.detik.net.id/community/media/visual/2021/03/17/ilustrasi-catur-1.jpeg?w=700&q=90"
+                alt="Catur"
                 className="w-full h-auto rounded-lg mb-6"
               />
               {/* Isi */}
               <p className="poppins-regular text-base text-gray-700 mb-6">
-                Karena  pada bulan ini APBF akan menyelenggarakan The 25th APBF Youth Championships 2025  pada tanggal 1-6 Mei 2025 The Cavalli Casa Resort di Ayutthaya, 
+                Sekretaris Jenderal Pengurus Besar Persatuan Catur Seluruh Indonesia (PB Percasi) Henry Hendratno yang menyampaikan target tersebut.
               </p>
               <p className="poppins-regular text-base text-gray-700 mb-6">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                "Kami target empat medali emas. Dua emas diharapkan dari catur internasional dan regional salah satunya nomor catur cepat. Sedangkan dua lainnya dari nomor catur tradisional milik tuan rumah," kata Henry saat ditemui di Wisma Kemenpora, Senayan, Minggu (16/3/2025).
               </p>
               {/* Author */}
               <div className="poppins-regular text-sm text-gray-600">
@@ -42,7 +42,7 @@ const B1 = () => {
                 <p>Date: May 12, 2025</p>
               </div>
             </div>
-            <SideCardsB />
+            <SideCardsC />
           </div>
         </div>
       </div>
@@ -51,4 +51,4 @@ const B1 = () => {
   )
 }
 
-export default B1
+export default C2

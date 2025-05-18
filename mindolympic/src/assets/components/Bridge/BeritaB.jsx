@@ -1,65 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import DataBridge from "../../../data/DataBridge";
 
-const BeritaB = () => {
-
-  const articles = [
-    {
-      id: 1,
-      title: "Berita 1",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
-      date: "May 12, 2025",
-      author: "dadang",
-      url: "B1",
-    },
-    {
-      id: 2,
-      title: "Berita 2",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
-      date: "May 12, 2025",
-      author: "nasi",
-      url: "B2",
-    },
-    {
-      id: 3,
-      title: "Berita 3",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
-      date: "May 10, 2025",
-      author: "padang",
-      url: "B3",
-    },
-    {
-      id: 4,
-      title: "Berita 4",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
-      date: "May 10, 2025",
-      author: "indomie",
-      url: "B4",
-    },
-    {
-      id: 6,
-      title: "Berita 6",
-      summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "https://www.openaccessgovernment.org/wp-content/uploads/2024/09/hand-box-dummy-1068x801.jpg",
-      date: "May 10, 2025",
-      author: "esteh",
-      url: "B6",
-    },
-  ];
-
+const BeritaBridge = () => {
   return (
     <>
-    
-    
     <div className="p-7 max-w-7xl mx-auto">
       {/* Section Title */}
       <h2 className="text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6">
@@ -68,7 +13,7 @@ const BeritaB = () => {
 
       {/* Articles List */}
       <div className="space-y-4">
-        {articles.map(({ id, title, summary, img, date, author, url }) => (
+        {DataBridge.map(({ id, title, summary, img, date, author, url }) => (
           <Link
             key={id}
             to={url}
@@ -97,9 +42,8 @@ const BeritaB = () => {
         ))}
       </div>
     </div>
-
     </>
   );
 };
 
-export default BeritaB;
+export default BeritaBridge;

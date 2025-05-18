@@ -3,38 +3,38 @@ import { Link } from "react-router-dom";
 
 const HighlightB = () => {
   const main = {
-    title: "Highlight 1",
+    title: "Bulan Mei 2025 Bulannya Asia Pacific Bridge Federation (APBF)",
     subtitle:
-      "Lorem Ipsum",
-    img: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bridge-Gro%C3%9Fschlemm.JPG",
+      "Bulan Mei 2025 akan menjadi bulan tersibuk dari Asia Pacific Bridge Federation (APBF).",
+    img: "https://assets.kompasiana.com/items/album/2025/04/22/apbf-youth-6806f35134777c490a7eda42.jpg",
     date: "May 2, 2025",
-    author: "nama anda",
+    author: "maula",
     url: "B1",
   };
 
   const sideCards = [
     {
       title:
-        "Highlight 2",
-      img: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bridge-Gro%C3%9Fschlemm.JPG",
+        "Bridge Mulai Digemari Pemuda Indonesia",
+      img: "https://cdn.rri.co.id/berita/Manado/o/1746969753153-IMG_20250511_211406/3fg0dv86i9fmnl3.jpeg",
       date: "May 2, 2025",
-      author: "nama anda",
+      author: "thifaal",
+      url: "B6",
+    },
+    {
+      title: "Bridge Porprov Jabar 2025: Enam Nomor Diusulkan",
+      img: "https://cdn.rri.co.id/berita/Bogor/o/1740013623918-DSC04490.jpg/sufhjbotejafj2v.webp",
+      date: "May 2, 2025",
+      author: "dean",
       url: "B2",
     },
     {
-      title: "Highlight 3",
-      img: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bridge-Gro%C3%9Fschlemm.JPG",
-      date: "May 2, 2025",
-      author: "nama anda",
-      url: "B3",
-    },
-    {
       title:
-        "Highlight 4",
-      img: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bridge-Gro%C3%9Fschlemm.JPG",
+        "Mengenal Cabang Olahraga Bridge di PON Aceh-Sumut",
+      img: "https://cdn.rri.co.id/berita/Takengon/o/1720175519271-SuperMixedTeamSemifinalINAVSCHN_DSC_0111/qxqtt4dsh0wcfk3.jpeg",
       date: "May 2, 2025",
-      author: "nama anda",
-      url: "B4",
+      author: "dean",
+      url: "B5",
     },
   ];
 
