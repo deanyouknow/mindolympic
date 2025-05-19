@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="bg-gray-100 p-3 poppins-regular">
             <div className="container mx-auto flex justify-center items-center">
             <div>
-                <Link class="josefin-sans text-2xl text-black font-bold" className="text-black text-lg font-bold" to="/">MindOlympic</Link>
+                <Link className="josefin-sans text-black text-lg font-bold" to="/">MindOlympic</Link>
             </div>
             </div>
             <div className="p-1 container mx-auto flex justify-between items-center">
