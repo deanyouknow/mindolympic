@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Search from './pages/Search'
 import { About, Bridge, Catur, Contact, Esport, Home } from './pages/'
 import { E1, E2, E3, E4, E5, E6 } from './pages/Article/Esport'
 import { C1, C2, C3, C4, C5, C6 } from './pages/Article/Catur' 
@@ -37,6 +38,7 @@ function App() {
           <Route path="/bridge/B4" element={<B4 />} />
           <Route path="/bridge/B5" element={<B5 />} />
           <Route path="/bridge/B6" element={<B6 />} />
+          <Route path="/search/:id" element={<Search />} />
         </Routes>
       </BrowserRouter>
   )
