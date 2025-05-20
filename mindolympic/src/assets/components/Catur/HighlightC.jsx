@@ -42,7 +42,6 @@ const HighlightC = () => {
     <div className="p-7 max-w-7xl mx-auto">
     
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Main */}
         <Link
           to={main.url}
           className="relative lg:col-span-2 h-96 rounded-lg overflow-hidden block group"
@@ -66,7 +65,6 @@ const HighlightC = () => {
         </div>
         </Link>
 
-        {/* Side Cards */}
         
          <div className="flex flex-col space-y-4">
           {sideCards.map((card, idx) => (

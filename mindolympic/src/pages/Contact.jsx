@@ -6,8 +6,6 @@ const Contact = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-
-      {/* Hero Section */}
       <section className="bg-gray-100 text-black flex items-center justify-center py-16">
         <div className="text-center px-6">
           <h1 className="josefin-sans text-4xl md:text-5xl font-bold mb-4">Hubungi Kami</h1>
@@ -17,7 +15,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Contact Form Section */}
       <section className="flex-grow bg-white py-16">
         <div className="max-w-3xl mx-auto px-6">
           <form className="grid grid-cols-1 gap-6">
@@ -63,7 +60,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Additional Contact Info */}
       <section className="bg-gray-100 py-12">
         <div className="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col items-center">

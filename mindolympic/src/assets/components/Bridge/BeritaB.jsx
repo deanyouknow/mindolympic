@@ -6,12 +6,10 @@ const BeritaBridge = () => {
   return (
     <>
     <div className="p-7 max-w-7xl mx-auto">
-      {/* Section Title */}
       <h2 className="text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6">
         Artikel Terbaru
       </h2>
 
-      {/* Articles List */}
       <div className="space-y-4">
         {DataBridge.map(({ id, title, summary, img, date, author, url }) => (
           <Link
@@ -19,14 +17,12 @@ const BeritaBridge = () => {
             to={url}
             className="flex items-start space-x-4 pb-4 border-b hover:bg-gray-50 transition"
           >
-            {/* Thumbnail */}
             <img
               src={img}
               alt={title}
               className="w-32 h-20 object-cover rounded"
             />
 
-            {/* Text */}
             <div className="flex-1">
               <h3 className="text-lg font-semibold leading-snug hover:text-purple-600 transition">
                 {title}

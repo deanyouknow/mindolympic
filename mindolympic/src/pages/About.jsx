@@ -7,7 +7,6 @@ const About = () => {
     <div className="flex flex-col min-h-screen">
       <Navbar />
 
-      {/* Hero Section */}
       <section className="flex-grow bg-gray-100 text-black flex items-center justify-center">
         <div className="text-center p-8 max-w-2xl">
           <h1 className="josefin-sans text-4xl md:text-5xl font-bold mb-4">Tentang Kami</h1>
@@ -20,7 +19,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Mission & Vision */}
       <section className="bg-white py-16">
         <div className="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
@@ -42,7 +40,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Values Section */}
       <section className="bg-gray-100 py-16">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="josefin-sans text-3xl font-semibold text-center mb-8">

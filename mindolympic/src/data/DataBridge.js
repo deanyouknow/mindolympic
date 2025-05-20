@@ -1,5 +1,3 @@
-// articleData.js - Centralized data file for all articles
-
 const DataEsport = [
   {
       id: 1,

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Highlight = () => {
-  // Multiple main highlights for the slideshow
   const mainHighlights = [
     {
       id: 1,
@@ -57,19 +56,16 @@ const Highlight = () => {
     },
   ];
 
-  // State to track current slide index
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // Auto slideshow functionality
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % mainHighlights.length);
-    }, 5000); // Change slide every 5 seconds
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [mainHighlights.length]);
 
-  // Manual navigation functions
   const goToSlide = (index) => {
     setCurrentSlide(index);
   };
@@ -89,9 +85,7 @@ const Highlight = () => {
       </h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Main Slideshow */}
         <div className="relative lg:col-span-2 h-96 rounded-lg overflow-hidden">
-          {/* Slideshow controls */}
           <button 
             className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-black/50 text-white w-8 h-8 rounded-full flex items-center justify-center hover:bg-black/70 transition"
             onClick={goToPrevSlide}
@@ -106,7 +100,6 @@ const Highlight = () => {
             &#10095;
           </button>
 
-          {/* Slides */}
           {mainHighlights.map((highlight, idx) => (
             <Link
               key={highlight.id}
@@ -133,7 +126,6 @@ const Highlight = () => {
             </Link>
           ))}
 
-          {/* Slide indicators */}
           <div className="absolute bottom-2 right-4 flex space-x-2">
             {mainHighlights.map((_, idx) => (
               <button
@@ -147,7 +139,6 @@ const Highlight = () => {
           </div>
         </div>
 
-        {/* Side Cards */}
         <div className="flex flex-col space-y-4">
           {sideCards.map((card, idx) => (
             <Link
