@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Search from './pages/Search'
-import { About, Bridge, Catur, Contact, Esport, Home } from './pages/'
+import { About, Bridge, Catur, Contact, Esport, Home, Search, Notfound } from './pages/'
 import { E1, E2, E3, E4, E5, E6 } from './pages/Article/Esport'
 import { C1, C2, C3, C4, C5, C6 } from './pages/Article/Catur' 
 import { B1, B2, B3, B4, B5, B6 } from './pages/Article/Bridge'
@@ -15,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="*" element={<Notfound />} />
           <Route path="/esport" element={<Esport />} />
           <Route path="/catur" element={<Catur />} />
           <Route path="/bridge" element={<Bridge />} />
