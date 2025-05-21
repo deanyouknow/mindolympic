@@ -1,13 +1,29 @@
-# Project DDRI RPL XA Kelompok 5
-### Project website berita yang bertemakan olahraga otak (Esport, Catur, Bridge)
+# 🧠 MindOlympic: Website Berita Olahraga Otak
 
-## Anggota Kelompok 5
-### Thifaal
-### Dean
-### Maula
+Sebuah website berita yang membahas dunia **olahraga otak** seperti *Esport*, *Catur*, dan *Bridge*.
 
-## Project ini dibuat dengan React + Vite + TailwindCSS
-### Mohon maaf jika banyak yang belum sempurna
-### Project ini juga terinspirasi dari beberapa Repository di Github, Tutorial di Google, dan juga AI
-### Tapi maksud terinspirasi juga tidak plek ketiplek persis, banyak yang di modifikasi, dan juga banyak ketik tangan, tidak copy-paste
+---
 
+## 👥 Anggota Kelompok 5
+
+- **Thifaal**
+- **Dean**
+- **Maula**
+
+---
+
+## 🚀 Teknologi yang Digunakan
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+
+---
+
+## ℹ️ Catatan
+
+> Mohon maaf jika masih terdapat kekurangan pada project ini.  
+> Project ini terinspirasi dari beberapa repository di GitHub, tutorial di Google, dan juga AI.  
+> Namun, banyak bagian yang telah dimodifikasi dan dikerjakan sendiri, tidak sekadar copy-paste.
+
+---
