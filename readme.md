@@ -32,10 +32,3 @@ Sebuah website berita yang membahas dunia **olahraga otak** seperti *Esport*, *C
 
 ---
 
-## 📌 Catatan
-
-> Mohon maaf jika masih terdapat kekurangan pada project ini.  
-> Project ini terinspirasi dari beberapa repository di GitHub, tutorial di Google, dan juga AI.  
-> Namun, banyak bagian yang telah dimodifikasi dan dikerjakan sendiri, tidak sekadar copy-paste.
-
----
