@@ -1,8 +1,6 @@
 # 🛠️ Project DDRI RPL X-A Kelompok 5
 
-## 🧠 MindOlympic: Website Berita Olahraga Otak
-
-Sebuah website berita yang membahas dunia **olahraga otak** seperti *Esport*, *Catur*, dan *Bridge*.
+Sebuah website project gabut dari kelompok 5
 
 ---
 
@@ -11,6 +9,12 @@ Sebuah website berita yang membahas dunia **olahraga otak** seperti *Esport*, *C
 - **Thifaal**
 - **Dean**
 - **Maula**
+
+---
+
+## 🧠 MindOlympic: Website Berita Olahraga Otak
+
+Sebuah website berita yang membahas dunia **olahraga otak** seperti *Esport*, *Catur*, dan *Bridge*.
 
 ---
 
