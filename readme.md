@@ -12,7 +12,13 @@ Sebuah website project gabut dari kelompok 5
 
 ---
 
-## 🧠 MindOlympic: Website Berita Olahraga Otak
+## ✅ Website ini Bisa di akses melalui:
+
+- [MindOlympic](https://mindolympic.web.app/)
+
+---
+
+## ℹ️ MindOlympic: Website Berita Olahraga Otak
 
 Sebuah website berita yang membahas dunia **olahraga otak** seperti *Esport*, *Catur*, dan *Bridge*.
 
@@ -26,7 +32,7 @@ Sebuah website berita yang membahas dunia **olahraga otak** seperti *Esport*, *C
 
 ---
 
-## ℹ️ Catatan
+## 📌 Catatan
 
 > Mohon maaf jika masih terdapat kekurangan pada project ini.  
 > Project ini terinspirasi dari beberapa repository di GitHub, tutorial di Google, dan juga AI.  
