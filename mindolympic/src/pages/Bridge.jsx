@@ -11,7 +11,7 @@ const Bridge = () => {
     <div>
         <div className='p-7 max-w-7xl mx-auto'>
             <h1 className='text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6'>Berita Bridge</h1>
-            <p className='text-lg poppins-regular'>Berita Bridge ternaru</p>
+            <p className='text-lg poppins-regular'>Kabar Terkini Seputar Bridge</p>
         </div>
     </div>
     <HighlightB />
