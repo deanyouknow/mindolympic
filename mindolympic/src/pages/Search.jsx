@@ -58,11 +58,11 @@ const Search = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 text-white max-w-xs">
-                  <p className="text-xs opacity-75 mb-1">{article.category} | {article.date}</p>
+                  <p className="text-xs opacity-75 mb-1">{article.category}</p>
                   <h2 className="text-lg font-semibold leading-snug">
                     {article.title}
                   </h2>
-                  <p className="mt-2 text-sm opacity-75">By {article.author}</p>
+                  <p className="mt-2 text-sm opacity-75">{article.date} | {article.author}</p>
                 </div>
               </Link>
             ))}

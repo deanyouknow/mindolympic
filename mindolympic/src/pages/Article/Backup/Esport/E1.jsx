@@ -38,18 +38,6 @@ const E1 = () => {
               <p className="poppins-regular text-base text-gray-700 mb-6">
                 Sementara itu, Direktur Garuda Sepakbola Indonesia (GSI) Marsal Masita sebagai perwakilan PSSI menyebut kompetisi ini bisa menjaring talenta-talenta baru di dunia esport untuk menorehkan prestasi di kancah internasional.
               </p>
-              <p className='poppins-regular text-base text-gray-700 mb-6'>
-                Indonesia berhasil meraih gelar juara dunia di Piala Dunia eFootball 2024 untuk kategori konsol.
-              </p>
-              <p className='poppins-regular text-base text-gray-700 mb-6'>
-                Timnas Indonesia yang diwakili oleh Elga Cahya Putra, Rizky Faidan, dan Akbar Paudie berhasil menang melawan Brasil di final.
-              </p>
-              <p className='poppins-regular text-base text-gray-700 mb-6'>
-                Ketiga atlet gim elektronik sepak bola Indonesia tersebut berhasil meneruskan prestasi apik mereka setelah menjuarai AFC eAsian Cup 2024 di Qatar pada Februari 2024.
-              </p>
-              <p className='poppins-regular text-base text-gray-700 mb-6'>
-                Gelar juara dunia ini adalah yang kedua bagi Indonesia secara beruntun setelah pada September 2024 merebut trofi FIFAe World Cup 2024 Football Manager.
-              </p>
               {/* Author */}
               <div className="poppins-regular text-sm text-gray-600">
                 <p>Author: Dean</p>

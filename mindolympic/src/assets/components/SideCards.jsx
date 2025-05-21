@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import DataEsport from '../../data/DataEsport';
+import DataCatur from '../../data/DataCatur';
+import DataBridge from '../../data/DataBridge';
 
-const SideCard = ({ title, img, date, about, url }) => (
+const SideCard = ({ title, img, date, url, author }) => (
   <Link
     to={url}
     className="relative w-640 h-50 rounded-lg overflow-hidden block group"
@@ -14,7 +17,7 @@ const SideCard = ({ title, img, date, about, url }) => (
     <div className="absolute inset-0 bg-black/50" />
     <div className="absolute bottom-2 left-3 text-white">
       <h4 className="text-sm font-semibold leading-snug">{title}</h4>
-      <p className="text-[8px] opacity-50 mt-0.5">{date}</p>
+      <p className="text-[8px] opacity-50 mt-0.5">{date} | {author}</p>
     </div>
   </Link>
 );
@@ -22,24 +25,25 @@ const SideCard = ({ title, img, date, about, url }) => (
 const SideCards = () => {
   const sideCards = [
     {
-      title: 'PSSI dan Konami resmi selenggarakan eFootball Indonesia Cup 2025',
-      img: 'https://cdn.antaranews.com/cache/1200x800/2025/04/08/1000009306.jpg.webp',
-      date: 'May 12, 2025',
-      url: '/Esport/E1',
+      title: DataEsport[0].title,
+      img: DataEsport[0].img,
+      date: DataEsport[0].date,
+      url: DataEsport[0].url,
+      author: DataEsport[0].author,
     },
     {
-      title: 'Tim Catur Bangkalan Berhasil Lolos ke Porprov Jatim 2025',
-      img: 'https://cdn.rri.co.id/berita/Sumenep/o/1745813366936-atlet_catur_bangkalan_di_pra_porprovv_kediri/5ckfnfvs86tt0lv.webp',
-      date: 'May 12, 2025',
-      about: 'Berita Catur Terbaru',
-      url: '/Catur/C1',
+      title: DataCatur[0].title,
+      img: DataCatur[0].img,
+      date: DataCatur[0].date,
+      url: DataCatur[0].url,
+      author: DataCatur[0].author,
     },
     {
-      title: 'Bridge Porprov Jabar 2025: Enam Nomor Diusulkan',
-      img: 'https://cdn.rri.co.id/berita/Bogor/o/1740013623918-DSC04490.jpg/sufhjbotejafj2v.webp',
-      date: 'May 12, 2025',
-      about: 'Berita Bridge Terbaru',
-      url: '/Bridge/B1',
+      title: DataBridge[1].title,
+      img: DataBridge[1].img,
+      date: DataBridge[1].date,
+      url: DataBridge[1].url,
+      author: DataBridge[1].author,
     },
   ];
 

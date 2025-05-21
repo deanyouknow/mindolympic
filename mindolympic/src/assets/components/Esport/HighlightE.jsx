@@ -1,40 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import DataEsport from "../../../data/DataEsport";
 
 const HighlightE = () => {
   const main = {
-    title: "GTA VI: Detail karakter, lokasi, dan alur cerita",
-    subtitle:
-      "Petualangan heboh baru menanti…",
-    img: "https://cdn.oneesports.id/cdn-data/sites/2/2025/05/GTAVI_Jason_Duval_03-1024x576.jpg",
-    date: "May 12, 2025",
-    author: "dean",
-    url: "E4",
+    title: DataEsport[3].title,
+    summary:
+      DataEsport[3].summary,
+    img: DataEsport[3].img,
+    date: DataEsport[3].date,
+    author: DataEsport[3].author,
+    url: DataEsport[3].url,
   };
 
   const sideCards = [
     {
       title:
-        "Di luar nalar, prize pool EWC 2025 lebih dari Rp1,1 triliun!",
-      img: "https://cdn.oneesports.id/cdn-data/sites/2/2025/04/EWC2025_Prizepool.jpg",
-      date: "May 12, 2025",
-      author: "maula",
-      url: "E6",
+        DataEsport[5].title,
+      img: DataEsport[5].img,
+      date: DataEsport[5].date,
+      author: DataEsport[5].author,
+      url: DataEsport[5].url,
     },
     {
-      title: "Tanggal rilis Dune Awakening, adaptasi game dari film dengan rating IMDB nyaris sempurna",
-      img: "https://cdn.oneesports.id/cdn-data/sites/2/2024/03/Games_DuneAwakening_OfficialImage_1-1024x576-1.jpg",
-      date: "May 12, 2025",
-      author: "thifaal",
-      url: "E5",
+      title: DataEsport[4].title,
+      img: DataEsport[4].img,
+      date: DataEsport[4].date,
+      author: DataEsport[4].author,
+      url: DataEsport[4].url,
     },
     {
       title:
-        "Tidak main-main, investasi esports Honor of Kings 2025 sebesar US$15 juta!",
-      img: "https://cdn.oneesports.id/cdn-data/sites/2/2025/03/HonorOfKings_InvitationalS3_NongshimRedforce_PunchPose-1024x576-1.jpg",
-      date: "May 12, 2025",
-      author: "thifaal",
-      url: "E2",
+        DataEsport[1].title,
+      img: DataEsport[1].img,
+      date: DataEsport[1].date,
+      author: DataEsport[1].author,
+      url: DataEsport[1].url,
     },
   ];
 
@@ -57,7 +58,7 @@ const HighlightE = () => {
             <h3 className="text-2xl font-bold leading-tight">
               {main.title}
             </h3>
-            <p className="mt-2 text-sm">{main.subtitle}</p>
+            <p className="mt-2 text-sm">{main.summary}</p>
             <p className="mt-3 text-xs opacity-70">
               {main.date} | {main.author}
             </p>

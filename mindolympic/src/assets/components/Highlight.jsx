@@ -1,35 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import DataEsport from "../../data/DataEsport";
+import DataCatur from "../../data/DataCatur";
+import DataBridge from "../../data/DataBridge";
 
 const Highlight = () => {
   const mainHighlights = [
-    {
-      id: 1,
-      title: "GTA VI: Detail karakter, lokasi, dan alur cerita",
-      subtitle: "Petualangan heboh baru menanti…",
-      img: "https://cdn.oneesports.id/cdn-data/sites/2/2025/05/GTAVI_Jason_Duval_03-1024x576.jpg",
-      date: "May 12, 2025",
-      author: "Dean",
-      url: "/Esport/E4",
-    },
-    {
-      id: 2,
-      title: "Remaja 16 Tahun Asal Sleman Lolos Piala Dunia Catur Sekaligus Raih Gelar Woman International Master!",
-      subtitle: "Lorem Ipsum",
-      img: "https://images.chesscomfiles.com/uploads/v1/news/1652318.5fba5617.668x375o.54778ff67b4c.png",
-      date: "May 12, 2025",
-      author: "Thifaal",
-      url: "/Catur/C4",
-    },
-    {
-      id: 3,
-      title: "Bulan Mei 2025 Bulannya Asia Pacific Bridge Federation (APBF)",
-      subtitle: "Bulan Mei 2025 akan menjadi bulan tersibuk dari Asia Pacific Bridge Federation (APBF).",
-      img: "https://assets.kompasiana.com/items/album/2025/04/22/apbf-youth-6806f35134777c490a7eda42.jpg",
-      date: "May 12, 2025",
-      author: "Maula",
-      url: "/Bridge/B1",
-    }
+    DataEsport.find(item => item.id === 4),
+    DataCatur.find(item => item.id === 4),
+    DataBridge.find(item => item.id === 1)
   ];
 
   const sideCards = [
@@ -118,7 +97,7 @@ const Highlight = () => {
                 <h3 className="text-2xl font-bold leading-tight">
                   {highlight.title}
                 </h3>
-                <p className="mt-2 text-sm">{highlight.subtitle}</p>
+                <p className="mt-2 text-sm">{highlight.summary}</p>
                 <p className="mt-3 text-xs opacity-70">
                   {highlight.date} | {highlight.author}
                 </p>

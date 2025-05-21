@@ -1,40 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import DataBridge from "../../../data/DataBridge";
 
 const HighlightB = () => {
   const main = {
-    title: "Bulan Mei 2025 Bulannya Asia Pacific Bridge Federation (APBF)",
-    subtitle:
-      "Bulan Mei 2025 akan menjadi bulan tersibuk dari Asia Pacific Bridge Federation (APBF).",
-    img: "https://assets.kompasiana.com/items/album/2025/04/22/apbf-youth-6806f35134777c490a7eda42.jpg",
-    date: "May 2, 2025",
-    author: "maula",
-    url: "B1",
+    title: DataBridge[0].title,
+    summary:
+      DataBridge[0].summary,
+    img: DataBridge[0].img,
+    date: DataBridge[0].date,
+    author: DataBridge[0].author,
+    url: DataBridge[0].url,
   };
 
   const sideCards = [
     {
       title:
-        "Bridge Mulai Digemari Pemuda Indonesia",
-      img: "https://cdn.rri.co.id/berita/Manado/o/1746969753153-IMG_20250511_211406/3fg0dv86i9fmnl3.jpeg",
-      date: "May 2, 2025",
-      author: "thifaal",
-      url: "B6",
+        DataBridge[5].title,
+      img: DataBridge[5].img,
+      date: DataBridge[5].date,
+      author: DataBridge[5].author,
+      url: DataBridge[5].url,
     },
     {
-      title: "Bridge Porprov Jabar 2025: Enam Nomor Diusulkan",
-      img: "https://cdn.rri.co.id/berita/Bogor/o/1740013623918-DSC04490.jpg/sufhjbotejafj2v.webp",
-      date: "May 2, 2025",
-      author: "dean",
-      url: "B2",
+      title: DataBridge[1].title,
+      img: DataBridge[1].img,
+      date: DataBridge[1].date,
+      author: DataBridge[1].author,
+      url: DataBridge[1].url,
     },
     {
       title:
-        "Mengenal Cabang Olahraga Bridge di PON Aceh-Sumut",
-      img: "https://cdn.rri.co.id/berita/Takengon/o/1720175519271-SuperMixedTeamSemifinalINAVSCHN_DSC_0111/qxqtt4dsh0wcfk3.jpeg",
-      date: "May 2, 2025",
-      author: "dean",
-      url: "B5",
+        DataBridge[4].title,
+      img: DataBridge[4].img,
+      date: DataBridge[4].date,
+      author: DataBridge[4].author,
+      url: DataBridge[4].url,
     },
   ];
 
@@ -58,7 +59,7 @@ const HighlightB = () => {
             <h3 className="text-2xl font-bold leading-tight">
               {main.title}
             </h3>
-            <p className="mt-2 text-sm">{main.subtitle}</p>
+            <p className="mt-2 text-sm">{main.summary}</p>
             <p className="mt-3 text-xs opacity-70">
               {main.date} | {main.author}
             </p>
