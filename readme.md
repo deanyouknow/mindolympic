@@ -14,7 +14,7 @@ Sebuah website project gabut dari kelompok 5
 
 ## ✅ Website ini Bisa di akses melalui:
 
-- www
+- [MindOlympic](https://mindolympic.web.app/)
 
 ---
 
