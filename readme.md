@@ -1,4 +1,6 @@
-# 🧠 MindOlympic: Website Berita Olahraga Otak
+# 🛠️ Project DDRI RPL X-A Kelompok 5
+
+## 🧠 MindOlympic: Website Berita Olahraga Otak
 
 Sebuah website berita yang membahas dunia **olahraga otak** seperti *Esport*, *Catur*, dan *Bridge*.
 
