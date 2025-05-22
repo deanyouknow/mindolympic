@@ -38,7 +38,7 @@ const Navbar = () => {
                         <input 
                             type="search" 
                             id="default-search" 
-                            className="block w-full p-3 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50" 
+                            className="block w-50 p-3 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50" 
                             placeholder="Cari apa?" 
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
