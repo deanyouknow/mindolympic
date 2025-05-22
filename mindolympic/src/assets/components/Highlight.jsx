@@ -59,7 +59,7 @@ const Highlight = () => {
 
   return (
     <div className="p-7 max-w-7xl mx-auto">
-      <h1 className="text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6">
+      <h1 className="text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6 text-black dark:text-white dark:border-white">
         Berita Terbaru eSport, Catur, dan Bridge
       </h1>
 

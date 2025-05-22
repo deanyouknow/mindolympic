@@ -14,17 +14,17 @@ const Navbar = () => {
 
   return (
     <div>
-        <nav className="bg-gray-100 p-3 poppins-regular">
+        <nav className="bg-gray-100 dark:bg-[#1F1F1F] text-black dark:text-white py-3 poppins-regular transition-colors duration-300">
             <div className="container mx-auto flex justify-center items-center">
             <div>
-                <Link className="josefin-sans text-black text-lg font-bold" to="/">MindOlympic</Link>
+                <Link className="josefin-sans text-black text-lg font-bold dark:text-white" to="/">MindOlympic</Link>
             </div>
             </div>
             <div className="p-1 container mx-auto flex justify-between items-center">
             <ul className="flex space-x-3">
-                <li><Link className='poppins-regulartext-black hover:text-gray-300' to="/esport" >Esport</Link></li>
-                <li><Link className='poppins-regular text-black hover:text-gray-300' to="/catur" >Catur</Link></li>
-                <li><Link className='text-black hover:text-gray-300' to="/bridge" >Bridge</Link></li>
+                <li><Link className='poppins-regular text-black hover:text-gray-300 dark:text-white' to="/esport" >Esport</Link></li>
+                <li><Link className='poppins-regular text-black hover:text-gray-300 dark:text-white' to="/catur" >Catur</Link></li>
+                <li><Link className='text-black hover:text-gray-300 dark:text-white' to="/bridge" >Bridge</Link></li>
             </ul>
             <div>
                 <form onSubmit={handleSearch}>

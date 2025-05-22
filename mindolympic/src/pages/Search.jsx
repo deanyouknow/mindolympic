@@ -32,15 +32,15 @@ const Search = () => {
   }, [id]);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-white dark:bg-[#030712] transition-colors duration-300">
       <Navbar />
       <main className="flex-grow container mx-auto px-4 py-8">
-        <h1 className="josefin-sans text-2xl font-bold mb-6">
+        <h1 className="josefin-sans text-2xl font-bold mb-6 text-dark dark:text-white">
           Hasil Pencarian dari: "{decodeURIComponent(id)}"
         </h1>
 
         {isLoading ? (
-          <div className="poppins-regular flex justify-center items-center h-32">
+          <div className="poppins-regular flex justify-center items-center h-32 text-dark dark:text-white">
             <p>Memuat Pencarian...</p>
           </div>
         ) : searchResults.length > 0 ? (
@@ -68,11 +68,11 @@ const Search = () => {
             ))}
           </div>
         ) : (
-          <div className="bg-white p-6 rounded-lg text-center">
-            <p className="poppins-regular text-lg">
+          <div className="bg-white p-6 rounded-lg text-center dark:bg-[#1F1F1F] transition-colors duration-300">
+            <p className="poppins-regular text-lg text-dark dark:text-white">
               Tidak ada hasil pencarian dari "{decodeURIComponent(id)}"
             </p>
-            <p className="poppins-regular mt-2 text-gray-600">
+            <p className="poppins-regular mt-2 text-dark dark:text-white">
               Coba keyword lain
             </p>
           </div>

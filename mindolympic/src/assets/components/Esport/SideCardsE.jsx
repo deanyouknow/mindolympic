@@ -5,7 +5,7 @@ import DataEsport from '../../../data/DataEsport';
 const SideCardsE = () => {
   return (
     <div className="lg:w-1/3">
-      <h2 className="josefin-sans text-2xl font-bold mb-4 border-b-2 border-black pb-1">Berita Terkait</h2>
+      <h2 className="josefin-sans text-2xl font-bold mb-4 border-b-2 border-black pb-1 text-black dark:text-white dark:border-white">Berita Terkait</h2>
       <div className="flex flex-col space-y-4 mt-4">
         {DataEsport.map((card, idx) => (
           <Link

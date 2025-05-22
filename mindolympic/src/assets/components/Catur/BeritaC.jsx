@@ -6,7 +6,7 @@ const BeritaC = () => {
   return (
     <>
     <div className="p-7 max-w-7xl mx-auto">
-      <h2 className="text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6">
+      <h2 className="text-2xl josefin-sans inline-block border-b-2 border-black pb-1 mb-6 text-black dark:text-white dark:border-white">
         Artikel Terbaru
       </h2>
 
@@ -15,7 +15,7 @@ const BeritaC = () => {
           <Link
             key={id}
             to={url}
-            className="flex items-start space-x-4 pb-4 border-b hover:bg-gray-50 transition"
+            className="flex items-start space-x-4 pb-4 border-b hover:bg-gray-50 transition dark:border-w dark:hover:bg-gray-900"
           >
             <img
               src={img}
@@ -24,7 +24,7 @@ const BeritaC = () => {
             />
 
             <div className="flex-1">
-              <h3 className="text-lg font-semibold leading-snug hover:text-purple-600 transition">
+              <h3 className="text-lg font-semibold leading-snug hover:text-purple-600 transition text-black dark:text-white">
                 {title}
               </h3>
               <p className="mt-1 text-sm text-gray-600 line-clamp-2">
