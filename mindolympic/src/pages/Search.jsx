@@ -36,12 +36,12 @@ const Search = () => {
       <Navbar />
       <main className="flex-grow container mx-auto px-4 py-8">
         <h1 className="josefin-sans text-2xl font-bold mb-6">
-          Search Results for: "{decodeURIComponent(id)}"
+          Hasil Pencarian dari: "{decodeURIComponent(id)}"
         </h1>
 
         {isLoading ? (
           <div className="poppins-regular flex justify-center items-center h-32">
-            <p>Loading results...</p>
+            <p>Memuat Pencarian...</p>
           </div>
         ) : searchResults.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -70,10 +70,10 @@ const Search = () => {
         ) : (
           <div className="bg-white p-6 rounded-lg text-center">
             <p className="poppins-regular text-lg">
-              No results found for "{decodeURIComponent(id)}"
+              Tidak ada hasil pencarian dari "{decodeURIComponent(id)}"
             </p>
             <p className="poppins-regular mt-2 text-gray-600">
-              Try different keywords or check your spelling
+              Coba keyword lain
             </p>
           </div>
         )}
