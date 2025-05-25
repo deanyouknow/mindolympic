@@ -15,7 +15,7 @@ const BeritaC = () => {
           <Link
             key={id}
             to={url}
-            className="flex items-start space-x-4 pb-4 border-b hover:bg-gray-50 transition dark:border-w dark:hover:bg-gray-900"
+            className="flex items-start space-x-4 pb-4 border-b border-black hover:bg-gray-50 transition dark:border-w dark:hover:bg-gray-900 dark:border-white"
           >
             <img
               src={img}
