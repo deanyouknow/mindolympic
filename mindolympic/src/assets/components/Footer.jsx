@@ -1,16 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import { useDarkMode } from './DarkModeProvider';
 
 const Footer = () => {
-    const [darkMode, setDarkMode] = useState(false);
-
-    React.useEffect(() => {
-        if (darkMode) {
-            document.documentElement.classList.add('dark');
-        } else {
-            document.documentElement.classList.remove('dark');
-        }
-    }, [darkMode]);
+    const { darkMode, toggleDarkMode } = useDarkMode();
 
     return (
         <footer className="bg-gray-100 dark:bg-[#1F1F1F] text-black dark:text-white py-3 poppins-regular transition-colors duration-300">
@@ -21,7 +14,7 @@ const Footer = () => {
                 </div>
                 <Link className="josefin-sans text-black dark:text-white text-lg font-bold" to="/">MindOlympic</Link>
                 <button
-                    onClick={() => setDarkMode(!darkMode)}
+                    onClick={toggleDarkMode}
                     className={`poppins-regular flex items-center gap-2 bg-gray-200 dark:bg-gray-700 text-black dark:text-white px-4 py-2 rounded-full shadow hover:bg-gray-300 dark:hover:bg-gray-600 transition`}
                     aria-label="Toggle dark mode"
                 >

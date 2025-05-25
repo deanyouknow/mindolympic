@@ -10,7 +10,7 @@ const About = () => {
       <section className="flex-grow bg-gray-100 text-black flex items-center justify-center dark:bg-[#1F1F1F] transition-colors duration-300">
         <div className="text-center p-8 max-w-2xl">
           <h1 className="josefin-sans text-4xl md:text-5xl font-bold mb-4 dark:text-white">Tentang Kami</h1>
-          <p className="poppins-regular text-lg md:text-xl dark:text-gray-500">
+          <p className="poppins-regular text-lg md:text-xl text-gray-700 dark:text-gray-500">
             Mind Olympic adalah platform berita olahraga inovatif yang
             berfokus pada catur, bridge, dan esport. Kami hadir untuk
             menyajikan informasi terkini, analisis mendalam, dan cerita
@@ -42,7 +42,7 @@ const About = () => {
 
       <section className="bg-gray-100 dark:bg-[#1F1F1F] py-16 transition-colors duration-300 ">
         <div className="max-w-5xl mx-auto px-6">
-          <h2 className="josefin-sans text-3xl font-semibold text-center mb-8">
+          <h2 className="josefin-sans text-3xl font-semibold text-center mb-8 text-black dark:text-white">
             Nilai Inti
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

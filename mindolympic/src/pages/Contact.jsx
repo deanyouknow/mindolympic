@@ -9,7 +9,7 @@ const Contact = () => {
       <section className="bg-gray-100 dark:bg-[#1F1F1F] text-black dark:text-white flex items-center justify-center py-16 transition-colors duration-300">
         <div className="text-center px-6">
           <h1 className="josefin-sans text-4xl md:text-5xl font-bold mb-4">Hubungi Kami</h1>
-          <p className="poppins-regular text-lg md:text-xl text-gray-700 dark:text-gray-300">
+          <p className="poppins-regular text-lg md:text-xl text-gray-700 dark:text-gray-500">
             Kami siap membantu. Kirimkan pertanyaan atau masukan Anda melalui formulir di bawah.
           </p>
         </div>
