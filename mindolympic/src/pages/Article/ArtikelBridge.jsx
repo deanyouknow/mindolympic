@@ -39,7 +39,7 @@ const ArtikelBridge = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row gap-6">
             {/* Artikel utama */}
-            <div className="lg:w-2/3 bg-gray-100 shadow-md rounded-lg p-6 dark:bg-[#1F1F1F]">
+            <div className="lg:w-2/3 bg-gray-100 shadow-md rounded-lg p-6 dark:bg-[#1F1F1F] transition-colors duration-300">
               {/* Judul */}
               <h1 className="josefin-sans text-4xl font-bold mb-4 text-dark dark:text-white">{article.title}</h1>
               {/* Subjudul */}
