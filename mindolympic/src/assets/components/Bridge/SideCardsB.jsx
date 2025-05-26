@@ -19,7 +19,7 @@ const SideCardsB = () => {
               alt=""
               className="object-cover w-full h-full transition-opacity duration-300 group-hover:opacity-80"
             />
-            <div className="absolute inset-0 bg-black/50" />
+            <div className="absolute inset-0 bg-black-50" />
             <div className="absolute bottom-2 left-3 text-white">
               <h4 className="text-sm font-semibold leading-snug">
                 {card.title}
