@@ -14,7 +14,8 @@ Sebuah website project gabut dari kelompok 5
 
 ## ✅ Website ini Bisa di akses melalui:
 
-- [MindOlympic](https://mindolympic.web.app/)
+- [Vercel](https://mindolympic.vercel.app/)
+- [Firebase](https://mindolympic.web.app/)
 
 ---
 
