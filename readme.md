@@ -1,10 +1,10 @@
-# 🛠️ Project DDRI RPL X-A Kelompok 5
+# 🛠️ Project DDRI RPL X-A Kelompok 7
 
-Sebuah website project gabut dari kelompok 5
+Sebuah website project gabut dari kelompok 7
 
 ---
 
-## 👥 Anggota Kelompok 5
+## 👥 Anggota Kelompok 7
 
 - **Thifaal**
 - **Dean**
