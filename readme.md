@@ -30,6 +30,8 @@ Sebuah website berita yang membahas dunia **olahraga otak** seperti *Esport*, *C
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Firebase](https://firebase.google.com/)
+- [Vercel](https://vercel.com)
 
 ---
 
